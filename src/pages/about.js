@@ -2,9 +2,9 @@ import Link from 'next/link'
 
 export default function About () {
     return (
-        <div className='bg-blue-700/30 h-[100vh]'>
+        <div className='h-[100vh]'>
             <div className="h-full bg-smoke content-center bg-contain bg-no-repeat bg-center xl:w-max-[800px]">
-                <div className="flex justify-center">
+                <div className="flex justify-center pt-[10rem]">
                     <h1 className="flex justify-center text-white bg-black/40 m-10 p-7 rounded-3xl shadow-black shadow-xl backdrop-blur-md w-[240px] text-3xl">About Us</h1>
                 </div>
                 <div className='text-white bg-black/40 m-20 p-10 rounded-3xl shadow-black shadow-xl backdrop-blur-md'>

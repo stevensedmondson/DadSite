@@ -6,7 +6,7 @@ export default function Location(props) {
     <div className="flex flex-col h-[100vh]">  
         <div className="h-full bg-smoke content-center bg-contain bg-no-repeat bg-center xl:w-max-[800px]">
           <div className="flex justify-center pt-[10rem]">
-            <h2 className="flex justify-center text-white bg-black/40 m-10 p-7 rounded-3xl shadow-black shadow-xl backdrop-blur-md w-[240px] text-3xl">Location:</h2>
+            <h2 className="flex justify-center text-white bg-black/40 m-10 p-7 rounded-3xl shadow-black shadow-xl backdrop-blur-md w-[240px] text-3xl">Services</h2>
           </div>
           <div className="flex items-start justify-center m-20 ">
             <Image
