@@ -1,10 +1,15 @@
+
+
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Work_Sans } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Image from "next/image";
+import HamburgerMenuPage from './components/hamburger'
 
-const inter = Inter({ subsets: ["latin"] });
+
+const work = Work_Sans({
+  subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "Pilot Medical Exams",
@@ -17,31 +22,25 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className={work.className}>
+      <body>
         
         <div className="flex font-semibold w-full mt-[4rem] lg:w-auto h-auto flex-col items-center">
           <div className="lg:flex w-[90vw] lg:max-w-[1140px] items-center justify-center lg:justify-between font-calibri">
-            <h1 className="flex lg:w-[40vw] text-2xl justify-center lg:justify-start pb-6 pt-8 text-[#07668C]">
+            <h1 className="flex lg:w-[40vw] text-2xl justify-center lg:justify-start pb-6 pt-8 text-[#07668C] max-lg:hidden">
               PILOT MEDICAL EXAMS, PLLC
             </h1>
             <div className="flex justify-end pb-6 pt-8 max-lg:hidden">
               <nav className="flex gap-10 uppercase text-[#5C8750]">
-                <Link href="/"><h1>Home</h1></Link>
-                <Link href="/about"><h1>About</h1></Link>
-                <Link href="/services"><h1>Services</h1></Link>
-                <Link href="/location"><h1>Location</h1></Link>
-                <Link href="/contact"><h1>Contact</h1></Link>
+                <Link href="/"><h2>Home</h2></Link>
+                <Link href="/about"><h2>About</h2></Link>
+                <Link href="/services"><h2>Services</h2></Link>
+                <Link href="/location"><h2>Location</h2></Link>
+                <Link href="/contact"><h2>Contact</h2></Link>
               </nav>
             </div>
             <div className="flex justify-center pb-6 pt-2 lg:hidden">
-              <nav className="flex gap-10 uppercase text-[#5C8750]">
-                <Link href="/"><h1>Home</h1></Link>
-                <Link href="/about"><h1>About</h1></Link>
-                <Link href="/services"><h1>Services</h1></Link>
-                <Link href="/location"><h1>Location</h1></Link>
-                <Link href="/contact"><h1>Contact</h1></Link>
-              </nav>
+              <HamburgerMenuPage />
             </div>
           </div>               
         </div>
