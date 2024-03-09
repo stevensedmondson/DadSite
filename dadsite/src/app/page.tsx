@@ -24,8 +24,8 @@ export default function Home() {
         </h3>
       </div>
       <div className="bg-[url(/hangar1.jpg)] bg-cover bg-no-repeat w-full mt-10 p-[5rem] text-[#044159]">
-        <div className="bg-[#D5E7F2]/90 p-5 rounded-2xl shadow-2xl mx-[20vw]">
-          <h1 className="flex justify-center uppercase text-4xl pt-5">Testimonials</h1>
+        <div className="bg-[#D5E7F2]/90 p-5 rounded-2xl shadow-2xl w-full lg:mx-[20vw]">
+          <h1 className="flex justify-center uppercase text-2xl md:text-4xl pt-5">Testimonials</h1>
           <p className="flex text-center pt-10 pb-5 font-medium">
               Dr. Edmondson is a consummate professional whose expertise and dedication ensure pilots' safety. As a pilot, I have experienced his exceptional care firsthand. His knowledge and genuine concern create a comfortable atmosphere during appointments. Thank you, Dr. Edmondson, for your unwavering commitment to our safety and well-being.
           </p>
