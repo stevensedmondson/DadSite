@@ -27,7 +27,7 @@ export default function Home() {
         <div className="bg-[#D5E7F2]/90 p-5 rounded-2xl shadow-2xl mx-[20vw]">
           <h1 className="flex justify-center uppercase text-4xl pt-5">Testimonials</h1>
           <p className="flex text-center pt-10 pb-5 font-medium">
-              Dr. Edmondson is a consummate professional whose expertise and dedication ensure pilots safety. As a pilot, I have experienced his exceptional care firsthand. His knowledge and genuine concern create a comfortable atmosphere during appointments. Thank you, Dr. Edmondson, for your unwavering commitment to our safety and well-being.
+              Dr. Edmondson is a consummate professional whose expertise and dedication ensure pilots' safety. As a pilot, I have experienced his exceptional care firsthand. His knowledge and genuine concern create a comfortable atmosphere during appointments. Thank you, Dr. Edmondson, for your unwavering commitment to our safety and well-being.
           </p>
         </div>
       </div>
