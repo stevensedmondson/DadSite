@@ -4,9 +4,9 @@ export default function Location() {
     return (
         <div className="p-10">    
             <div>   
-                <h1 className="flex justify-center uppercase text-5xl text-[#07668C] pt-5">Location</h1>
+                <h1 className="flex justify-center uppercase text-5xl text-white pt-5">Location</h1>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center text-white">
                 <h2 className="font-bold pt-10">
                     Conveniently Located at Gerald R Ford Airport
                 </h2>
