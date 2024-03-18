@@ -9,7 +9,7 @@ export default function About() {
             <div className="text-white">
                 <div className="flex justify-center lg:float-end pt-10 pr-10 pl-10 pb-5">
                     <Image
-                        src='/web1.jpg'
+                        src='/hangar2.png'
                         width={600}
                         height={300}
                         alt=""

@@ -7,7 +7,7 @@ export default function Home() {
     <div className="flex bg-transparent w-full lg:w-auto h-auto flex-col items-center">
       <div className="max-w-[90vw]">
         <Image
-          src="/web2.jpg"
+          src="/headshot1.png"
           alt=""
           width={1200}
           height={500}
