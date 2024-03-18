@@ -9,7 +9,7 @@ export default function Home() {
         <Image
           src="/web2.jpg"
           alt=""
-          width={1140}
+          width={1200}
           height={500}
           priority
           className="rounded-2xl shadow-2xl border-gray-400 border-2"
