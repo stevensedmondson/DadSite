@@ -14,11 +14,15 @@ export default function HamburgerMenuPage () {
   };
 
   return (
-    <div className='font-work uppercase text-[#07668C] max-w-xs:text-sm'>    
+    <div className='font-work uppercase text-white max-w-xs:text-sm'>    
         <HamburgerMenu bgColor='bg-white' textColor='text-black' >
-        <div className='flex justify-between w-[60vw]'>    
+        <div className='flex w-[80vw] justify-between'>
+          <div className='bg-gray-700/80 px-4 py-2 rounded-2xl shadow-2xl border-gray-400 border-2'>
             <HamburgerMenuBrand href="/">Pilot Medical Exams, PLLC</HamburgerMenuBrand>
+          </div>
+          <div className='bg-gray-700/80 px-6 py-2 rounded-2xl shadow-2xl border-gray-400 border-2'>
             <HamburgerMenuToggler toggle={toggle} />
+          </div>
         </div>
             <HamburgerMenuCollapse open={open}>
                 <HamburgerMenuNav>
@@ -47,12 +51,12 @@ export default function HamburgerMenuPage () {
 /* Logic */
 
 const style = {
-  nav: `flex flex-col mt-5 pt-2 pb-2 bg-[#5D7A8C] text-white border-2 border-[#044159] rounded-2xl shadow-2xl w-full`,
+  nav: `flex flex-col mt-5 pt-2 pb-2 bg-gray-700/80 text-white border-2 border-gray-400 rounded-2xl shadow-2xl w-full`,
   navbar: `font-light shadow py-2 px-4`,
   collapse: `transition-height delay-100 ease duration-500`,
   toggler: `float-right pt-2.5 text-2xl focus:outline-md focus:shadow`,
   link: `flex justify-center cursor-pointer py-2 px-4  hover:text-gray-400 font-md`,
-  brand: `mx-5 p-2 inline-block cursor-pointer text-lg font-normal  hover:text-gray-400 max-w-md:flex`,
+  brand: `mx-2 p-2 inline-block cursor-pointer text-lg font-normal hover:text-gray-400 max-w-md:flex`,
 };
 
 function HamburgerMenu({ children, bgColor, textColor }) {

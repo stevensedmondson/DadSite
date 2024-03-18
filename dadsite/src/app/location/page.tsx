@@ -43,7 +43,7 @@ export default function Location() {
             </div>
             <div className="flex justify-center pt-10">
                 <Image
-                    src='/map.jpg'
+                    src='/map1.JPG'
                     width={800}
                     height={800}
                     alt="">

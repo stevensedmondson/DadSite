@@ -2,17 +2,18 @@ import Image from "next/image"
 
 export default function About() {
     return (
-        <div>    
-            <div className="flex justify-center text-3xl pt-10 uppercase text-[#07668C]">    
+        <div className="bg-gray-700/80 px-10 pb-10 mx-8 rounded-2xl shadow-2xl border-gray-400 border-2">    
+            <div className="flex justify-center text-3xl pt-10 uppercase text-white">    
                 <h1>About Us</h1>
             </div>
-            <div className="text-[#07668C]">
-                <div className="flex justify-center md:float-start pt-10 pr-10 pl-10 pb-5">
+            <div className="text-white">
+                <div className="flex justify-center lg:float-end pt-10 pr-10 pl-10 pb-5">
                     <Image
-                        src='/headshot2.jpg'
-                        width={400}
+                        src='/web1.jpg'
+                        width={600}
                         height={300}
                         alt=""
+                        className="rounded-2xl shadow-2xl border-gray-400 border-2"
                     ></Image>
                 </div>
                 <div className="flex justify-center md:block">
@@ -22,7 +23,7 @@ export default function About() {
                     <h1 className="uppercase md:pl-10">FAA Medical Examiner</h1>
                 </div>
             </div>
-            <div>
+            <div className="text-white">
                 <p className="py-4 px-10">
                     Welcome to Pilot Medical Exams, PLLC, your trusted destination for aviation medical services conveniently located right at Gerald R Ford Airport in Grand Rapids, MI.
                 </p>

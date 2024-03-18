@@ -20,34 +20,37 @@ export default function Services() {
             <div className="flex justify-center uppercase text-[#07668C] font-semibold font-calibri text-4xl pt-12">Our Services</div>
 
             <div className="flex max-lg:flex-col items-center justify-items-center lg:justify-center w-full pt-10">    
-                <div className="lg:mx-5 max-w-[500px] min-w-[300px]">
+                <div className="lg:mx-6 lg:max-w-[25vw] w-[90vw] h-auto py-4">
                     <Image 
-                        src="/stock1.jpeg"
+                        src="/Web61.jpg"
                         width={1000}
                         height={600}
                         alt=""
+                        className="object-cover lg:w-[25vw] lg:h-[25vw]"                        
                     />
                     <h1 className="flex justify-center">
                         FAA Medical Exams
                     </h1>
                 </div>
-                <div className="lg:mx-5 max-w-[500px] min-w-[300px]">
+                <div className="lg:mx-6 lg:max-w-[25vw] w-[90vw] h-auto py-4">
                     <Image 
-                        src="/ekg.jpeg"
+                        src="/ekg.jpg"
                         width={1000}
                         height={600}
                         alt=""
+                        className="object-cover lg:w-[25vw] lg:h-[25vw]"
                     />
                     <h1 className="flex justify-center">
                         EKG
                     </h1>
                 </div>
-                <div className="lg:mx-5 max-w-[500px] min-w-[300px]">
+                <div className="lg:mx-6 lg:max-w-[25vw] w-[90vw] h-auto py-4">
                     <Image 
-                        src="/stock3.jpeg"
+                        src="/Web4.jpg"
                         width={1000}
                         height={600}
                         alt=""
+                        className="object-cover lg:w-[25vw] lg:h-[25vw]"
                     />
                     <h1 className="flex justify-center">
                         Special Issuance
