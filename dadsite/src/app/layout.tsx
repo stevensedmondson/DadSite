@@ -49,11 +49,12 @@ export default function RootLayout({
       </div>
         <div className="w-full h-auto lg:h-[20rem] mt-20 bg-[#5d7a8c] lg:grid lg:grid-cols-2 text-white justify-center ">
           
-          <div className="flex items-center justify-center text-xl p-10">
+          <div className="flex text-center items-center justify-center text-xl p-10">
             <div className="justify-center">
               <h2 className="flex justify-center lg:justify-start font-semibold uppercase">Pilot Medical Exams, PLLC</h2>
               <h2 className="flex justify-center lg:justify-start font-bold pt-8">Steve Edmondson, DO</h2>
-              <h2 className="flex justify-center lg:justify-start uppercase">FAA Medical Examiner</h2>
+              <h2 className="flex justify-center lg:justify-start uppercase">FAA Aviation Medical Examiner</h2>
+              <h2 className="flex justify-center lg:justify-start uppercase">Board Certified Family Practice</h2>
             </div>
           </div>
 
