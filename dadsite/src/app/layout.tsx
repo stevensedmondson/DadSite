@@ -61,9 +61,10 @@ export default function RootLayout({
 
           <div className="flex items-center justify-center py-10">
             <div className="justify-center">
-              {/*<div className="flex justify-center">
-                <button className="text-2xl font-semibold uppercase bg-[#7EBA6E] p-3">Schedule Now </button>
-              </div>*/}
+              <div className="flex justify-center">
+                <h1>To schedule an appointment, email tania.cook@amway.com</h1>
+                {/*<button className="text-2xl font-semibold uppercase bg-[#7EBA6E] p-3">Schedule Now </button>*/}
+              </div>
 
               <div className="font-semibold uppercase mt-12">
                 <h2 className="flex justify-center lg:justify-start ">GERALD FORD INTERNATIONAL AIRPORT</h2>
