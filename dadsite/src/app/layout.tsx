@@ -67,7 +67,7 @@ export default function RootLayout({
               </div>
 
               <div className="font-semibold uppercase mt-12">
-                <h2 className="flex justify-center lg:justify-start ">GERALD FORD INTERNATIONAL AIRPORT</h2>
+                <h2 className="flex justify-center lg:justify-start ">GERALD R. FORD INTERNATIONAL AIRPORT - KGRR</h2>
                 <h2 className="flex justify-center lg:justify-start ">AMWAY AVIATION HANGAR</h2>
                 <h2 className="flex justify-center lg:justify-start ">5410 44TH STREET SE</h2>
                 <h2 className="flex justify-center lg:justify-start ">GRAND RAPIDS, MI 49512</h2>
