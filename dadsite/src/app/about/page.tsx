@@ -39,7 +39,7 @@ export default function About() {
                 </p>
 
                 <p className="my-6">
-                    At Pilot Medical Exams, PLLC, we offer a range of services including AME medical exams, EKG screenings, and assistance with Special Issuance cases. Our office is conveniently situated inside the Amway Aviation Hangar, making it easy for pilots to access essential medical care right at the airport.
+                    Our office is conveniently situated inside the Amway Aviation Hangar, making it easy for pilots to access essential medical care right at the airport.
                 </p>
 
                 <p className="my-6">
