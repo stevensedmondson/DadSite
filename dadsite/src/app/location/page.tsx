@@ -4,7 +4,7 @@ export default function Location() {
     return (
         <div className="p-10">    
             <div>   
-                <h1 className="flex justify-center uppercase text-5xl text-white pt-5">Location</h1>
+                <h1 className="flex justify-center uppercase font-semibold font-calibri text-5xl pt-24 text-white">Location</h1>
             </div>
             <div className="flex flex-col items-center text-white">
                 <h2 className="font-bold pt-10">

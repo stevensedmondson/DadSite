@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function About() {
     return (
         <div className="bg-gray-700/80 px-2 lg:px-10 pb-4 lg:pb-10 mx-2 lg:mx-8 rounded-2xl shadow-2xl border-gray-400 border-2">    
-            <div className="flex justify-center text-3xl pt-10 uppercase text-white">    
+            <div className="flex justify-center uppercase font-semibold font-calibri text-5xl pt-24 text-white">    
                 <h1>About Us</h1>
             </div>
             <div className="text-white">

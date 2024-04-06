@@ -16,7 +16,7 @@ export default function HamburgerMenuPage () {
   return (
     <div className='font-work uppercase text-white max-w-xs:text-sm'>    
         <HamburgerMenu bgColor='bg-white' textColor='text-black' >
-        <div className='flex flex-col lg:justify-between w-[80vw] items-center'>
+        <div className='flex justify-between w-[80vw] items-center'>
           <div className='bg-gray-700/80 text-center px-4 py-2 rounded-2xl shadow-2xl border-gray-400 border-2'>
             <HamburgerMenuBrand href="/">Pilot Medical Exams, PLLC</HamburgerMenuBrand>
           </div>
@@ -51,12 +51,12 @@ export default function HamburgerMenuPage () {
 /* Logic */
 
 const style = {
-  nav: `flex flex-col mt-5 pt-2 pb-2 bg-gray-700/80 text-white border-2 border-gray-400 rounded-2xl shadow-2xl w-full`,
+  nav: `flex justify-center mt-5 pt-2 pb-2 bg-gray-700/80 text-white border-2 border-gray-400 rounded-2xl shadow-2xl w-full`,
   navbar: `font-light shadow py-2 px-4`,
   collapse: `transition-height delay-100 ease duration-500`,
-  toggler: `float-right place-content-center text-2xl focus:outline-md focus:shadow`,
+  toggler: `float-right place-content-center text-3xl focus:outline-md focus:shadow`,
   link: `flex justify-center cursor-pointer py-2 px-4  hover:text-gray-400 font-md`,
-  brand: `mx-2 p-2 inline-block cursor-pointer text-lg font-normal hover:text-gray-400 max-w-md:flex`,
+  brand: `mx-2 p-2 inline-block cursor-pointer text-2xl font-normal hover:text-gray-400 max-w-md:flex`,
 };
 
 function HamburgerMenu({ children, bgColor, textColor }) {
