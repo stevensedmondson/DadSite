@@ -16,12 +16,12 @@ export default function HamburgerMenuPage () {
   return (
     <div className='font-work uppercase text-white max-w-xs:text-sm'>    
         <HamburgerMenu bgColor='bg-white' textColor='text-black' >
-        <div className='flex justify-between w-[80vw] items-center'>
+        <div className='flex justify-center w-full items-center'>
           <div className='bg-gray-700/80 text-center px-4 py-2 rounded-2xl shadow-2xl border-gray-400 border-2'>
             <HamburgerMenuBrand href="/">Pilot Medical Exams, PLLC</HamburgerMenuBrand>
-          </div>
-          <div className='bg-gray-700/80 flex justify-center w-[4rem] h-[4rem] rounded-2xl shadow-2xl border-gray-400 border-2'>
-            <HamburgerMenuToggler toggle={toggle} />
+              <div className='flex justify-center w-full h-auto rounded-2xl'>
+                <HamburgerMenuToggler toggle={toggle} />
+              </div>
           </div>
         </div>
             <HamburgerMenuCollapse open={open}>

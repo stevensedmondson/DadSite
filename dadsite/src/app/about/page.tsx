@@ -2,11 +2,11 @@ import Image from "next/image"
 
 export default function About() {
     return (
-        <div className="bg-gray-700/80 px-2 lg:px-10 pb-4 lg:pb-10 mx-2 lg:mx-8 rounded-2xl shadow-2xl border-gray-400 border-2">    
-            <div className="flex justify-center uppercase font-semibold font-calibri text-5xl pt-24 text-white">    
+        <div className="bg-gray-700/80 flex flex-col font-semibold w-[140vw] mx-auto mt-0 mb-10 pb-10 rounded-2xl shadow-2xl border-gray-400 border-2">    
+            <div className="flex justify-center w-[140vw] uppercase font-semibold font-calibri text-5xl pt-24 text-white">    
                 <h1>About Us</h1>
             </div>
-            <div className="text-white">
+            <div className="text-white w-[140vw]">
                 <div className="flex justify-center lg:float-end pt-10 pr-10 pl-10 pb-5">
                     <Image
                         src='/hangar2.png'
@@ -16,7 +16,7 @@ export default function About() {
                         className="rounded-2xl shadow-2xl border-gray-400 border-2"
                     ></Image>
                 </div>
-                <div className="flex justify-center md:block">
+                <div className="flex justify-center md:block]">
                     <h1 className="font-bold md:pl-10 md:pt-10">Steve Edmondson, DO</h1>
                 </div>
                 <div className="flex justify-center md:block">

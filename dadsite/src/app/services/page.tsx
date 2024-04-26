@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Services() {
     return (
-        <div className="">    
+        <div className="w-[140vw]">    
             <div>    
                 <div className="flex font-semibold w-full lg:w-auto h-auto flex-col items-center">
                     <div className="max-w-[90vw]">
@@ -70,7 +70,7 @@ export default function Services() {
             </div>
             <div className="lg:grid lg:grid-cols-2 mx-10 gap-10">
                 <div className="mx-[3vw] lg:mx-0 mt-8">
-                    <div className="bg-gray-800/80 mx-10 lg:mx-0 py-5 rounded-3xl border-white border-2 h-[24rem]">
+                    <div className="bg-gray-800/80 mx-10 lg:mx-0 py-5 rounded-3xl border-white border-2 h-auto">
                         <h1 className="flex justify-center text-white pt-5 text-3xl">
                             Exam Details
                         </h1>
