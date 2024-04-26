@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Services() {
     return (
-        <div className="w-[140vw]">    
+        <div className="w-[90vw]">    
             <div>    
                 <div className="flex font-semibold w-full lg:w-auto h-auto flex-col items-center">
                     <div className="max-w-[90vw]">

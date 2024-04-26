@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en" className={work.className}>
       <body className="bg-[url('/Background.png')] bg-fixed bg-cover bg-no-repeat bg-top">
         
-        <div className="flex justify-center font-semibold w-[140vw] mt-0 mb-10 pb-10">
+        <div className="flex justify-center font-semibold w-[90vw] mt-0 mb-10 pb-10">
           <div className="flex mt-[8vh] w-[90vw] lg:max-w-[1140px] items-center justify-center lg:justify-between font-calibri ">
             <h1 className="flex text-2xl lg:justify-start pb-4 pt-4 text-white max-lg:hidden bg-gray-700/80 px-4 rounded-2xl shadow-2xl border-gray-400 border-2">
               PILOT MEDICAL EXAMS, PLLC
@@ -48,7 +48,7 @@ export default function RootLayout({
         <div>
           {children}
         </div>
-        <div className="w-[140vw] h-auto lg:h-[20rem] mt-10 bg-[#5d7a8c] lg:grid lg:grid-cols-2 text-white justify-center ">
+        <div className="w-[90vw] h-auto lg:h-[20rem] mt-10 bg-[#5d7a8c] lg:grid lg:grid-cols-2 text-white justify-center ">
           
           <div className="flex text-center items-center justify-center text-xl p-10">
             <div className="justify-center">
