@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Location() {
     return (
-        <div className="p-10 w-full]">    
+        <div className="p-10 w-full">    
             <div>   
                 <h1 className="flex justify-center uppercase font-semibold font-calibri text-5xl pt-24 text-white">Location</h1>
             </div>
