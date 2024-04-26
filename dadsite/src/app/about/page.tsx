@@ -2,11 +2,11 @@ import Image from "next/image"
 
 export default function About() {
     return (
-        <div className="bg-gray-700/80 flex flex-col font-semibold w-[90vw] mx-auto mt-0 mb-10 pb-10 rounded-2xl shadow-2xl border-gray-400 border-2">    
-            <div className="flex justify-center w-[90vw] uppercase font-semibold font-calibri text-5xl pt-24 text-white">    
+        <div className="bg-gray-700/80 flex flex-col font-semibold w-full mx-auto mt-0 mb-10 pb-10 rounded-2xl shadow-2xl border-gray-400 border-2">    
+            <div className="flex justify-center w-full uppercase font-semibold font-calibri text-5xl pt-24 text-white">    
                 <h1>About Us</h1>
             </div>
-            <div className="text-white w-[90vw]">
+            <div className="text-white w-full">
                 <div className="flex justify-center lg:float-end pt-10 pr-10 pl-10 pb-5">
                     <Image
                         src='/hangar2.png'

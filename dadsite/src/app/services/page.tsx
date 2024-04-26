@@ -69,9 +69,9 @@ export default function Services() {
                 </div>
             </div>
             <div className="lg:grid lg:grid-cols-2 mx-10 gap-10">
-                <div className="mx-[3vw] lg:mx-0 mt-8">
+                <div className="mx-auto lg:mx-0 mt-8">
                     <div className="bg-gray-800/80 mx-10 lg:mx-0 py-5 rounded-3xl border-white border-2 h-auto">
-                        <h1 className="flex justify-center text-white pt-5 text-3xl">
+                        <h1 className="flex justify-center text-center text-white pt-5 text-3xl">
                             Exam Details
                         </h1>
                         <p className="flex justify-center text-center text-white mx-8 pt-5">
