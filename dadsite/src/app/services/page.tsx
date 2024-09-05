@@ -94,7 +94,7 @@ export default function Services() {
                             Pricing Schedule
                         </h2>
                         <p className="flex justify-center text-center text-white mx-5 pt-10">
-                            1st Class Exam - $150 <br/> 1st Class Exam incl. EKG - $200 <br/> 2nd/3rd Class Exams - $150
+                            1st, 2nd, 3rd Class Medical Exams - $200 <br/> EKG Add-On - $50 <br/>
                         </p>
                         <p className="flex justify-center text-center text-white mx-5 pt-10">
                             We gladly accept Cash, Check, or Credit Card. <br/> Please make checks payable to: Pilot Medical Exams
